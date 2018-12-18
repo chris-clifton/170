@@ -20,7 +20,7 @@ Statelessness
 URL = Uniform Resource Locator
 - a URL is most frequently used part of general concept of URI- Uniform Resource Identifier, which specifies how resources are located
 
-## URL Components
+## URL Components: 5 main parts
 Example URL
 ```ruby
 http:///www.example.com:88/home?item=book
@@ -37,7 +37,7 @@ It tells the client where the resource is hosted or located.
 
 `:88`  
 **PORT**  
-The Port or port number.  Only required if you want to use a port other than the default.
+The Port or port number.  Only required if you want to use a port other than the default.  Port 80 handles HTTP requests.
 
 `/home/`  
 **URL PATH**  
@@ -51,7 +51,7 @@ Sometimes the path can point to a specific resource on the host.
 
 Sometimes we may want to include a port number which the host uses to listen to HTTP requests.  Unless a different port is specified, port 80 will be used by default in normal HTTP requests.  
 
-## Qury Strings and Query Parameters
+## Query Strings and Query Parameters
 
 ```ruby
 
