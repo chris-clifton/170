@@ -1,0 +1,2 @@
+- Rack is a web server interface, which gives back-end application developers a stable communication protocol between application code and web servers.
+- Rack helps alleviate need to write, rewrite, and maintain lower level boilerplate code related to working with servers
