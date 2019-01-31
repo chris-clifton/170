@@ -28,7 +28,8 @@ A 500 status code says "there's something wrong on the server side".  This is a 
 ## Response Headers
 Like Request Headers, we can also use the inspector to view response headers. Response Headers contian additional meta-information about response data being returned.
 
-**Common Response Headers**  
+**Common Response Headers** 
+ 
 |Header Name| Description | Example|
 |:----------|:------------|:-------|
 |Content Encoding | The type of encoding used on the data | Content-Encoding:gzip|
